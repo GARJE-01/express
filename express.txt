@@ -1,0 +1,33 @@
+1. Install Required Packages
+First, create your project and install the necessary packages:
+
+
+mkdir express-ejs-login
+cd express-ejs-login
+npm init -y
+npm install express ejs body-parser
+
+2. Project Structure
+Your project structure will look like this:
+
+express-ejs-login/
+│
+├── views/
+│   ├── login.ejs
+│   └── index.ejs
+├── public/
+│   └── css/
+│       └── style.css
+├── app.js
+└── package.json
+
+3,Setting Up Express and EJS in app.js
+
+4. Create Views with EJS
+views/index.ejs (Home Page):
+views/login.ejs (Login Page):
+
+5. Run the Application
+Run your Express server:
+
+node app.js
